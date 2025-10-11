@@ -52,5 +52,13 @@ run_locally: |
   npm install
   npm run serve
 ```
-
+Published on Vercel
+LiveLink: https://random-user-ui.vercel.app/
 frontend_url: "http://localhost:8080"
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/558c4206-47c7-4cfe-9e91-e037d88873b5" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bbaa43c1-98ea-4160-b485-dc8b019a77a3" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cd35f7f0-8cf8-489d-8af8-e328627b4afd" />
+
+
+
