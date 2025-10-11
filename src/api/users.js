@@ -1,19 +1,20 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // change if deployed
+const API_URL = 'http://localhost:5000/api/users';
 
 export const fetchUsers = (page = 1, limit = 25, search = '') => {
-  return axios.get(`${API_BASE_URL}/users`, { params: { page, limit, search } });
-};
-
-export const updateUser = (uuid, data) => {
-  return axios.put(`${API_BASE_URL}/users/${uuid}`, data);
-};
-
-export const deleteUser = (uuid) => {
-  return axios.delete(`${API_BASE_URL}/users/${uuid}`);
+    console.log("calling")
+  return axios.get(API_URL, { params: { page, limit, search } });
 };
 
 export const fetchAndInsertUsers = () => {
-  return axios.post(`${API_BASE_URL}/users/fetch`);
+  return axios.post(`${API_URL}/fetch`);
+};
+
+export const updateUser = (uuid, data) => {
+  return axios.put(`${API_URL}/${uuid}`, data);
+};
+
+export const deleteUser = (uuid) => {
+  return axios.delete(`${API_URL}/${uuid}`);
 };
