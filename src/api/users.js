@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+//const API_URL = 'http://localhost:5000/api/users';
+const API_URL='https://randomuserserver.onrender.com/api/users'
 
 export const fetchUsers = (page = 1, limit = 25, search = '') => {
     console.log("calling")
