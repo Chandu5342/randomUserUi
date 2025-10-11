@@ -47,7 +47,7 @@ api_usage:
     description: "Delete user by UUID"
 ```
 run_locally: |
-  git clone https://github.com/YourUsername/user-dashboard-frontend.git
+  git clone https://github.com/Chandu5342/randomUserUi.git
   cd frontend
   npm install
   npm run serve
